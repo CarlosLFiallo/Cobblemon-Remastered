@@ -1,0 +1,44 @@
+{
+	autofocus_id: "3865CD6FA59D4EFD"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "fwings"
+	group: "257DC2A7DFE41B29"
+	id: "26D218F2593A4D96"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3865CD6FA59D4EFD"
+			optional: true
+			size: 1.5d
+			tasks: [{
+				id: "1CA0712FB1E4C8F6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6EA3E4035199FD70"
+			tasks: [{
+				id: "33AB21C151C9D8F9"
+				item: { count: 1, id: "minecraft:elytra" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "08DCED043861CB1A"
+			tasks: [{
+				id: "561E48AD54AC75B7"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+	]
+}

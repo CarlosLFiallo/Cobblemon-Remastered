@@ -1,0 +1,44 @@
+{
+	autofocus_id: "20CC2B81B58D09F7"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "fboats"
+	group: "257DC2A7DFE41B29"
+	id: "51930B643693CF94"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "51093C69C9E47B74"
+			tasks: [{
+				id: "4F5EE4FBB1B5A38F"
+				item: { count: 1, id: "smallships:cannon" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "127ABD36A51DC8DC"
+			tasks: [{
+				id: "7686A16D1264F150"
+				item: { count: 1, id: "smallships:cannon_ball" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "20CC2B81B58D09F7"
+			optional: true
+			size: 1.5d
+			tasks: [{
+				id: "122EC2745F3C91C0"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

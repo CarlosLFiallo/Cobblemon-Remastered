@@ -1,0 +1,91 @@
+{
+	id: "723C4601530E7EA4"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			count: 120
+			id: "203651DEA123F1BE"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+			weight: 1.3f
+		}
+		{
+			count: 50
+			id: "0DD65848DC35EA33"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+		}
+		{
+			count: 25
+			id: "2C97168C0EBDA4E6"
+			item: {
+				count: 1
+				id: "create_cheese:cheddar"
+			}
+			weight: 0.8f
+		}
+		{
+			count: 9
+			id: "4A29C9A57ED28CCC"
+			item: {
+				count: 1
+				id: "create_cheese:brie"
+			}
+			weight: 0.6f
+		}
+		{
+			id: "64D2309E50B5C0B0"
+			item: {
+				count: 1
+				id: "create_confectionery:full_chocolate_bar"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "0315DBBC7B3272D1"
+			item: {
+				count: 1
+				id: "create_confectionery:full_white_chocolate_bar"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "6D35084368BAEBC5"
+			item: {
+				count: 1
+				id: "create_confectionery:full_black_chocolate_bar"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "36AD7CCC4BA742E6"
+			item: {
+				count: 1
+				id: "create_confectionery:full_ruby_chocolate_bar"
+			}
+			weight: 0.04f
+		}
+		{
+			count: 2
+			id: "189734FC95F32FCC"
+			item: {
+				count: 1
+				id: "create:potato_cannon"
+			}
+			weight: 0.6f
+		}
+		{
+			id: "28A1CF4789AEE2FF"
+			item: {
+				count: 1
+				id: "createoreexcavation:drilling_machine"
+			}
+			weight: 0.1f
+		}
+	]
+}

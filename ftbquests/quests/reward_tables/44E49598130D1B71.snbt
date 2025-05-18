@@ -1,0 +1,41 @@
+{
+	id: "44E49598130D1B71"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{
+			count: 10
+			id: "63363DB472092EBC"
+			item: {
+				count: 1
+				id: "cobblemon:ultra_ball"
+			}
+		}
+		{
+			count: 15
+			id: "1220F2BF2870AD73"
+			item: {
+				count: 1
+				id: "cobblemon:great_ball"
+			}
+			weight: 1.5f
+		}
+		{
+			count: 25
+			id: "31F00AEFEB27CEFD"
+			item: {
+				count: 1
+				id: "cobblemon:poke_ball"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "4A1E12C8BE92DC05"
+			item: {
+				count: 1
+				id: "cobblemon:master_ball"
+			}
+			weight: 1.0E-7f
+		}
+	]
+}

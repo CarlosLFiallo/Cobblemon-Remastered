@@ -1,0 +1,31 @@
+{
+	id: "13326CE77DEEB385"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 3
+			id: "6BF97508E3746C7B"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+		}
+		{
+			count: 3
+			id: "749DB892597A3ABA"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+		}
+		{
+			count: 3
+			id: "064F27F930A54D73"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+		}
+	]
+}

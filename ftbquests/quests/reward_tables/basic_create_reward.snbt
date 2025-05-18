@@ -1,0 +1,71 @@
+{
+	id: "370EA5A9028FF5A2"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			count: 6
+			id: "3826FDB3BCCA2AD2"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+		}
+		{
+			count: 4
+			id: "0AFBC935F257F6C9"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+		}
+		{
+			count: 2
+			id: "5DEFE1E78D6120EF"
+			item: {
+				count: 1
+				id: "create:large_cogwheel"
+			}
+		}
+		{
+			count: 4
+			id: "29AECB4564360570"
+			item: {
+				count: 1
+				id: "create:andesite_casing"
+			}
+		}
+		{
+			count: 4
+			id: "477FC12719B17735"
+			item: {
+				count: 1
+				id: "create:copper_casing"
+			}
+		}
+		{
+			count: 6
+			id: "6D86287C4669D70A"
+			item: {
+				count: 1
+				id: "create:fluid_pipe"
+			}
+		}
+		{
+			count: 8
+			id: "3119F1F24039FC16"
+			item: {
+				count: 1
+				id: "create:belt_connector"
+			}
+		}
+		{
+			count: 3
+			id: "06CFD43C5408017D"
+			item: {
+				count: 1
+				id: "create:gearbox"
+			}
+		}
+	]
+}

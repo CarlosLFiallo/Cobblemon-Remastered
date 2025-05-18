@@ -1,0 +1,24 @@
+{
+	id: "4BA91680785439C1"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			id: "577CD6C72B413FC1"
+			item: {
+				count: 1
+				id: "farmersdelight:cabbage_seeds"
+			}
+			weight: 0.0f
+		}
+		{
+			id: "72FC51F4F87C10FD"
+			item: {
+				count: 1
+				id: "farmersdelight:tomato_seeds"
+			}
+			weight: 0.0f
+		}
+		{ id: "26E0B074343146CA", item: { count: 1, id: "farmersdelight:rice" } }
+	]
+}

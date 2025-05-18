@@ -1,0 +1,48 @@
+{
+	id: "76A199A0E16DBD4F"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			id: "17E6A1E248C99D76"
+			item: {
+				count: 1
+				id: "minecraft:beetroot_seeds"
+			}
+			weight: 0.0f
+		}
+		{
+			id: "65A69CB0988AD5B3"
+			item: {
+				count: 1
+				id: "minecraft:melon_seeds"
+			}
+			weight: 0.0f
+		}
+		{
+			id: "5C8EB46C79C44BF3"
+			item: {
+				count: 1
+				id: "minecraft:pumpkin_seeds"
+			}
+			weight: 0.0f
+		}
+		{
+			id: "5A4A61E6E17A28F7"
+			item: {
+				count: 1
+				id: "minecraft:wheat_seeds"
+			}
+			weight: 0.0f
+		}
+		{
+			id: "22D37CEC155A00CF"
+			item: {
+				count: 1
+				id: "minecraft:carrot"
+			}
+			weight: 0.0f
+		}
+		{ id: "5197444EE9F7F4BB", item: { count: 1, id: "minecraft:potato" } }
+	]
+}

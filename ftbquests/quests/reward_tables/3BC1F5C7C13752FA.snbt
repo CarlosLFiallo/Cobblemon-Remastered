@@ -1,0 +1,14 @@
+{
+	id: "3BC1F5C7C13752FA"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ id: "769E2D1068CE8350", item: { count: 1, id: "cobblenav:pokefinder_item_red" } }
+		{ id: "4B55857FAE06075C", item: { count: 1, id: "cobblenav:pokefinder_item_pink" } }
+		{ id: "10F6246FF3F23716", item: { count: 1, id: "cobblenav:pokefinder_item_green" } }
+		{ id: "6A164C7AE3817580", item: { count: 1, id: "cobblenav:pokefinder_item_blue" } }
+		{ id: "5675C1A98CE959A8", item: { count: 1, id: "cobblenav:pokefinder_item_black" } }
+		{ id: "50FDEE6DF9F7AB6A", item: { count: 1, id: "cobblenav:pokefinder_item_white" } }
+		{ id: "29DB029FB8B45EFE", item: { count: 1, id: "cobblenav:pokefinder_item_yellow" } }
+	]
+}

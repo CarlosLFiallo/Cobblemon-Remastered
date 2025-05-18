@@ -1,0 +1,177 @@
+{
+	autofocus_id: "1DA322FC3635C840"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "fuseful_tools"
+	group: "3B98949C49CF0198"
+	icon: {
+		id: "permanentsponges:magmatic_sponge_on_a_stick"
+	}
+	id: "376E0672DF25081E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "50699C2DB1FDC698"
+			optional: true
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "7E7E43825A91D4C1"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "0E1F6C69004B8AC3"
+			rewards: [
+				{
+					id: "09D85F13746192C6"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "31C1DC0C8030687E"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52E4324EBDED94F3"
+				item: { count: 1, id: "chiselsandbits:chisel_diamond" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "4C3EAFD51063B02A"
+			optional: true
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "433A29F720296AE8"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "1564C272A69FF55E"
+			rewards: [
+				{
+					id: "32ABEBF9235F46D4"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "21C1BAC5D9596203"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6BFC32540D3FD871"
+				item: { count: 1, id: "permanentsponges:aqueous_sponge" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "68102B068659692F"
+			rewards: [
+				{
+					id: "5689BD1F0671879A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "02733628E51887A8"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "124AB19F02BDFB79"
+				item: { count: 1, id: "permanentsponges:aqueous_sponge_on_a_stick" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "6ED9797B292E55DD"
+			rewards: [
+				{
+					id: "09EC7C24F7BA6FCB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "2CD03AEEB84D8B30"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "529FF8D03BD9849E"
+				item: { count: 1, id: "permanentsponges:magmatic_sponge" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "3F8691E4C26674A6"
+			rewards: [
+				{
+					id: "337558B946C05117"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "476CA916C4F32AC4"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "014A857BBEA29CC6"
+				item: { count: 1, id: "permanentsponges:magmatic_sponge_on_a_stick" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "1DA322FC3635C840"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "56F7B374BE161905"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

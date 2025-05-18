@@ -1,0 +1,642 @@
+{
+	autofocus_id: "571F3A97634D695D"
+	default_hide_dependency_lines: true
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "painting"
+	group: "603B751E64357194"
+	icon: {
+		id: "xercamusic:bass_guitar"
+	}
+	id: "3846AF46F7915A4E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "368118D5F70064BF"
+			rewards: [{
+				count: 16
+				id: "684594CA3353096C"
+				item: {
+					count: 1
+					id: "minecraft:lime_concrete"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78C7597DAC95069A"
+				item: { count: 1, id: "exposure:camera" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "241425F79B9CDF6D"
+			rewards: [{
+				id: "75D683C517136D6F"
+				item: {
+					count: 1
+					id: "exposure:color_film"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4F74E6A90C22A5B5"
+					item: { count: 1, id: "exposure:lightroom" }
+					type: "item"
+				}
+				{
+					id: "21ADDF278C6177D0"
+					item: { count: 1, id: "minecraft:cyan_dye" }
+					type: "item"
+				}
+				{
+					id: "63BF8039CA91E6CD"
+					item: { count: 1, id: "minecraft:magenta_dye" }
+					type: "item"
+				}
+				{
+					id: "575F8F6F8B618D75"
+					item: { count: 1, id: "minecraft:yellow_dye" }
+					type: "item"
+				}
+				{
+					id: "3F144E590EE39413"
+					item: { count: 1, id: "minecraft:black_dye" }
+					type: "item"
+				}
+				{
+					id: "5A9D0FF3B44674A0"
+					item: { count: 1, id: "minecraft:paper" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "27427A42EA7BE650"
+			tasks: [
+				{
+					id: "421E8DA2BD2867D9"
+					item: { count: 1, id: "exposure:black_and_white_film" }
+					type: "item"
+				}
+				{
+					id: "4B28D56BDBA89C08"
+					item: { count: 1, id: "exposure:developed_black_and_white_film" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "70A627EADC8BFAC6"
+			tasks: [
+				{
+					id: "2BCFA8EB745D91FB"
+					item: { count: 1, id: "exposure:color_film" }
+					type: "item"
+				}
+				{
+					id: "30330B61F94B0E25"
+					item: { count: 1, id: "exposure:developed_color_film" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "35D3FE612F5E0B77"
+			rewards: [{
+				id: "7678899E2FDA1AEA"
+				item: {
+					count: 1
+					id: "exposure:color_film"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FC0069395FBBCA4"
+				item: { count: 1, id: "exposure:album" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "042313B4411102D4"
+			rewards: [{
+				id: "265030B4A786DCFC"
+				item: {
+					count: 1
+					id: "exposure:black_and_white_film"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "08F926D9A031ABA8"
+				item: { count: 1, id: "exposure:photograph" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "22C2805FB91F6B4C"
+			optional: true
+			rewards: [{
+				id: "3749581700737F05"
+				item: {
+					count: 1
+					id: "exposure:black_and_white_film"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "64CA079DCB6A7059"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "55BBBD0F1205F0A1"
+			rewards: [{
+				id: "6FD9B6299864F14C"
+				item: {
+					count: 1
+					id: "xercamusic:music_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A4EE08941F741AD"
+				item: { count: 1, id: "xercamusic:guitar" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "6AC66550640E7631"
+			optional: true
+			rewards: [{
+				id: "4DC2450450F540F2"
+				item: {
+					count: 1
+					id: "xercamusic:music_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "41145DCE426B04DB"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6AC66550640E7631"]
+			id: "30B6EF9CB0C81E1B"
+			optional: true
+			rewards: [{
+				id: "28AB691997E3A8BC"
+				item: {
+					count: 1
+					id: "xercamusic:music_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "53801A2017B3C16B"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "48322F5414D1F69B"
+			tasks: [{
+				id: "46E600E20C3BEA71"
+				item: { count: 1, id: "xercamusic:metronome" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "31CE3E5B96E5CF9A"
+			tasks: [{
+				id: "52F0693C9C433883"
+				item: { count: 1, id: "xercamusic:music_box" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "01FD5DA21F3F003C"
+			tasks: [{
+				id: "030B0EEE049156B5"
+				item: { count: 1, id: "xercamusic:music_sheet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "2F48FDBD8B0CF7F5"
+			rewards: [{
+				id: "1C69A32A2101D1B7"
+				item: {
+					count: 1
+					id: "xercamusic:music_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "540B6E6074B35F13"
+				item: { count: 1, id: "xercamusic:bass_guitar" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			id: "38E592461B77BCEF"
+			rewards: [{
+				id: "67DB14F3E01F1EF0"
+				item: {
+					count: 1
+					id: "xercamusic:music_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B992253B1C12734"
+				item: { count: 1, id: "xercamusic:french_horn" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			id: "2E98457469F7CEE1"
+			rewards: [{
+				id: "71ED0CC23F22F849"
+				item: {
+					count: 1
+					id: "xercamusic:music_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "208E3B11ED0979CA"
+				item: { count: 1, id: "xercamusic:saxophone" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			id: "25314F58263A4A40"
+			rewards: [{
+				id: "1EEB66140F2870B2"
+				item: {
+					count: 1
+					id: "xercamusic:music_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A7F87825B9715AD"
+				item: { count: 1, id: "xercamusic:redstone_guitar" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			id: "41AF99955491F252"
+			rewards: [{
+				id: "187E98C8E5BF559B"
+				item: {
+					count: 1
+					id: "xercamusic:music_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11510E81FB0144E8"
+				item: { count: 1, id: "xercamusic:oboe" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			id: "20D8C2257EE04695"
+			rewards: [{
+				id: "791325F792F153FA"
+				item: {
+					count: 1
+					id: "xercamusic:music_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "34CC34ACD12AFF6B"
+				item: { count: 1, id: "xercamusic:piano" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			id: "221B8D09122E8DE4"
+			rewards: [{
+				id: "1643E5980778EC71"
+				item: {
+					count: 1
+					id: "xercamusic:music_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CCD9493F0F27418"
+				item: { count: 1, id: "xercamusic:flute" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "4F5D2570F65A2156"
+			rewards: [{
+				id: "64395EB585A257C3"
+				item: {
+					count: 1
+					id: "xercamusic:music_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "73D0A67D562DD872"
+				item: { count: 1, id: "xercamusic:cello" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			id: "3390355DEA3ACEA2"
+			rewards: [{
+				id: "463A08708BE5E2EB"
+				item: {
+					count: 1
+					id: "xercamusic:music_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E62A1CFC830D4FB"
+				item: { count: 1, id: "xercamusic:violin" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			id: "7DEC1D5A0426554D"
+			rewards: [{
+				id: "2AF40B9A65B7F5CF"
+				item: {
+					count: 1
+					id: "xercamusic:music_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D25152C02FDB9C6"
+				item: { count: 1, id: "xercamusic:sansula" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			id: "3E4623760E0D0AEA"
+			rewards: [{
+				id: "48C7EE8C9D50E767"
+				item: {
+					count: 1
+					id: "xercamusic:music_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B92B1411B5F8216"
+				item: { count: 1, id: "xercamusic:tubular_bell" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			id: "7304C250F2D04B1C"
+			rewards: [{
+				id: "20889138A705C65F"
+				item: {
+					count: 1
+					id: "xercamusic:music_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "44F364816A85557A"
+				item: { count: 1, id: "xercamusic:xylophone" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			id: "2E186680AF5C4EE6"
+			rewards: [{
+				id: "2C587E85792D3B4D"
+				item: {
+					count: 1
+					id: "xercamusic:music_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "489A508AF36C2B64"
+				item: { count: 1, id: "xercamusic:drum_kit" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			id: "456B7888729F3233"
+			rewards: [{
+				id: "1E00D3E3F98F3DDA"
+				item: {
+					count: 1
+					id: "xercamusic:music_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DE4D6C88B42F718"
+				item: { count: 1, id: "xercamusic:drum" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "557C4BC0C722CB0E"
+			rewards: [{
+				id: "49655D926B1E0F3B"
+				item: {
+					count: 1
+					id: "xercamusic:music_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1073AE82BFA3CC61"
+				item: { count: 1, id: "xercamusic:cymbal" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			id: "4E4365C5FE7BDED6"
+			rewards: [{
+				id: "354AE789B82B821E"
+				item: {
+					count: 1
+					id: "xercamusic:music_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D0F1601D68E5717"
+				item: { count: 1, id: "xercamusic:lyre" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			id: "25FEF85C6AC81314"
+			rewards: [{
+				id: "4D54E1BA617D2F34"
+				item: {
+					count: 1
+					id: "xercamusic:music_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30EE8EC302AB2388"
+				item: { count: 1, id: "xercamusic:banjo" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"221B8D09122E8DE4"
+				"25314F58263A4A40"
+				"2F48FDBD8B0CF7F5"
+				"55BBBD0F1205F0A1"
+				"3390355DEA3ACEA2"
+				"4F5D2570F65A2156"
+				"20D8C2257EE04695"
+				"456B7888729F3233"
+				"557C4BC0C722CB0E"
+				"2E186680AF5C4EE6"
+				"7304C250F2D04B1C"
+				"7DEC1D5A0426554D"
+				"3E4623760E0D0AEA"
+				"4E4365C5FE7BDED6"
+				"41AF99955491F252"
+				"2E98457469F7CEE1"
+				"38E592461B77BCEF"
+				"25FEF85C6AC81314"
+			]
+			id: "3C48A74E451FBA0D"
+			rewards: [
+				{
+					id: "43B39F0D9D35CBA7"
+					item: {
+						count: 1
+						id: "xercamusic:god"
+					}
+					type: "item"
+				}
+				{
+					id: "05D1B31EBD044AF2"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "76E442C827C9D0C3"
+					item: {
+						count: 1
+						id: "simplehats:headphonesblue"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "6B0C702892A4E30D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6AC66550640E7631"]
+			id: "599EF2EBEF759FD5"
+			optional: true
+			rewards: [{
+				id: "060A1085A831350E"
+				item: {
+					count: 1
+					id: "xercamusic:music_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "078ABB573890530F"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "571F3A97634D695D"
+			optional: true
+			size: 1.5d
+			tasks: [{
+				id: "176955D1FD28B3B3"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

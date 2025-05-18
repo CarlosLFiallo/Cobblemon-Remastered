@@ -1,0 +1,14 @@
+{
+	icon: {
+		id: "cobblemon:beast_ball"
+	}
+	id: "49604926A9B3C9CF"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ id: "1ED849BE105D549E", item: { count: 1, id: "cobblemon:beast_ball" } }
+		{ id: "1D5327F087E38F1F", item: { count: 1, id: "cobblemon:dream_ball" } }
+		{ id: "18C17EA64EA7E623", item: { count: 1, id: "cobblemon:quick_ball" } }
+		{ id: "63E2CADB39F865C9", item: { count: 1, id: "cobblemon:timer_ball" } }
+	]
+}

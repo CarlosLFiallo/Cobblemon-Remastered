@@ -1,0 +1,12 @@
+{
+	id: "59061DB3B046C083"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ id: "0C7D1559FDD8AA98", item: { count: 1, id: "minecraft:diamond_sword" } }
+		{ id: "2BA02518C9DBCBE2", item: { count: 1, id: "minecraft:diamond_helmet" } }
+		{ id: "0135702F91361B01", item: { count: 1, id: "minecraft:diamond_chestplate" } }
+		{ id: "5908E1AC74BC4005", item: { count: 1, id: "minecraft:diamond_leggings" } }
+		{ id: "19F06B7EC2E77A50", item: { count: 1, id: "minecraft:diamond_boots" } }
+	]
+}

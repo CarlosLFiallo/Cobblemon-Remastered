@@ -1,0 +1,40 @@
+{
+	id: "36D9977835D1AE1B"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			id: "2005501DFBECCC89"
+			item: {
+				count: 1
+				id: "minecraft:shield"
+			}
+			weight: 0.0f
+		}
+		{
+			id: "66C41D87844402DE"
+			item: {
+				count: 1
+				id: "minecraft:iron_chestplate"
+			}
+			weight: 0.0f
+		}
+		{
+			id: "7AFD188134DD332C"
+			item: {
+				count: 1
+				id: "minecraft:iron_helmet"
+			}
+			weight: 0.0f
+		}
+		{ id: "555EFCDF4922E144", item: { count: 1, id: "minecraft:iron_leggings" } }
+		{
+			id: "4AE0ED22795E5861"
+			item: {
+				count: 1
+				id: "minecraft:iron_boots"
+			}
+			weight: 0.0f
+		}
+	]
+}

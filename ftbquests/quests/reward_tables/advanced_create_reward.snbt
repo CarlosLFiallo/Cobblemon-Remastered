@@ -1,0 +1,26 @@
+{
+	id: "4C411579F8E347CC"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ id: "3F26E7232FEA22B1", item: { count: 1, id: "cobblenav:pokenav_item_base" } }
+		{ id: "7C588A75AD0D352E", item: { count: 1, id: "cobblenav:pokenav_item_white" } }
+		{ id: "22E100F5786C831E", item: { count: 1, id: "cobblenav:pokenav_item_light_gray" } }
+		{ id: "1D5A7075D6F44CBF", item: { count: 1, id: "cobblenav:pokenav_item_gray" } }
+		{ id: "38DB3E1935649D3B", item: { count: 1, id: "cobblenav:pokenav_item_black" } }
+		{ id: "4C6CD1518F1E8915", item: { count: 1, id: "cobblenav:pokenav_item_brown" } }
+		{ id: "4B3A451F713C5E10", item: { count: 1, id: "cobblenav:pokenav_item_red" } }
+		{ id: "2C5BED51289CB32C", item: { count: 1, id: "cobblenav:pokenav_item_orange" } }
+		{ id: "615F719ACBAE41AE", item: { count: 1, id: "cobblenav:pokenav_item_yellow" } }
+		{ id: "461B609B992B2306", item: { count: 1, id: "cobblenav:pokenav_item_lime" } }
+		{ id: "0E5DBB4DF2DDDDA0", item: { count: 1, id: "cobblenav:pokenav_item_green" } }
+		{ id: "7A966F555BFA60BF", item: { count: 1, id: "cobblenav:pokenav_item_cyan" } }
+		{ id: "7D400E831245480F", item: { count: 1, id: "cobblenav:pokenav_item_light_blue" } }
+		{ id: "524B685C14035F08", item: { count: 1, id: "cobblenav:pokenav_item_blue" } }
+		{ id: "2BA352FFAB13DC57", item: { count: 1, id: "cobblenav:pokenav_item_purple" } }
+		{ id: "2882EB75BF09FAE9", item: { count: 1, id: "cobblenav:pokenav_item_magenta" } }
+		{ id: "244C10F8B2847F73", item: { count: 1, id: "cobblenav:pokenav_item_pink" } }
+		{ id: "2FDCE0C62EBE728B", item: { count: 1, id: "cobblenav:pokenav_item_gholdengo" } }
+		{ id: "2CC9E17FB33A16AD", item: { count: 1, id: "cobblenav:pokenav_item_old" } }
+	]
+}

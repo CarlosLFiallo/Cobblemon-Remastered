@@ -1,0 +1,484 @@
+{
+	autofocus_id: "673ABD4569E4C55E"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "fish"
+	group: "4D605963C9950CD2"
+	id: "0D38F6DDC5E06DFD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "673ABD4569E4C55E"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "3C13422C53176A0B"
+					item: {
+						count: 1
+						id: "minecraft:string"
+					}
+					type: "item"
+				}
+				{
+					id: "38123A75B5D6C464"
+					item: {
+						count: 1
+						id: "simplehats:fishing_hat"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "270E8F66D1B5ADD4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2E064732599F34CA"
+			rewards: [{
+				id: "315975F3B7B45AB9"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "688F2EFA4AC65DAF"
+				item: { count: 1, id: "minecraft:pufferfish" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "08653570AEEFE04B"
+			rewards: [{
+				id: "1FD009B19B7AC288"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7A983797B7FC07B8"
+				item: { count: 1, id: "minecraft:tropical_fish" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "38E71CFE9C5863E8"
+			rewards: [{
+				id: "1C36736CD081CA21"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:fishing_rod"
+				}
+				id: "5F8B4FB443BF25C7"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 1
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38E71CFE9C5863E8"]
+			id: "01C79D646AD57738"
+			rewards: [{
+				id: "3EB456BA6EEBFC50"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:fishing_rod"
+				}
+				id: "63E2747CEE1051A4"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 32
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01C79D646AD57738"]
+			id: "51934C1A990E9C6E"
+			rewards: [{
+				id: "280ABEE9550A013B"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:fishing_rod"
+				}
+				id: "6D6ECE10F01B1615"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 64
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51934C1A990E9C6E"]
+			id: "29D1EFBBCC23C7B1"
+			rewards: [{
+				id: "50C5A344CCC80EC7"
+				type: "xp"
+				xp: 130
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:fishing_rod"
+				}
+				id: "669160237441FABB"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 128
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E064732599F34CA"]
+			id: "2FF780D3A0A3BDEF"
+			rewards: [{
+				id: "6EAB9FD7C12C2E53"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				count: 16L
+				id: "1B36C6B7350CF69E"
+				item: { count: 1, id: "minecraft:pufferfish" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["08653570AEEFE04B"]
+			id: "74C0A7092BAF6D8C"
+			rewards: [{
+				id: "726CC070B7370D2D"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				count: 16L
+				id: "5C225AD8A6E46730"
+				item: { count: 1, id: "minecraft:tropical_fish" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6A4DD38D3B3FB92F"]
+			id: "48ECB88BF27AE307"
+			rewards: [{
+				id: "7EA7CA438C6DBFD6"
+				type: "xp"
+				xp: 256
+			}]
+			tasks: [{
+				count: 256L
+				id: "34CF9DB0A23AE6F9"
+				item: { count: 1, id: "minecraft:pufferfish" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["74C0A7092BAF6D8C"]
+			id: "4713C4C9DE88A091"
+			rewards: [{
+				id: "5EFB9A785B700AA0"
+				type: "xp"
+				xp: 64
+			}]
+			tasks: [{
+				count: 64L
+				id: "052DA03069AEDC10"
+				item: { count: 1, id: "minecraft:tropical_fish" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4713C4C9DE88A091"]
+			id: "4C169E5441B49669"
+			rewards: [{
+				id: "08EDF7F93D32E48D"
+				type: "xp"
+				xp: 256
+			}]
+			tasks: [{
+				count: 256L
+				id: "65E79DD8F2920382"
+				item: { count: 1, id: "minecraft:tropical_fish" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2FF780D3A0A3BDEF"]
+			id: "6A4DD38D3B3FB92F"
+			rewards: [{
+				id: "7594250E4E5DC19E"
+				type: "xp"
+				xp: 64
+			}]
+			tasks: [{
+				count: 64L
+				id: "07C33308C906A9B8"
+				item: { count: 1, id: "minecraft:pufferfish" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"2E064732599F34CA"
+				"08653570AEEFE04B"
+			]
+			hide_dependency_lines: true
+			id: "5E22E2826FF9813A"
+			rewards: [{
+				id: "50F3ECF2AA53E355"
+				item: {
+					count: 1
+					id: "cobblemon:lure_ball"
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "56CE028C1AF7FB29"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.875d
+		}
+		{
+			dependencies: [
+				"2FF780D3A0A3BDEF"
+				"74C0A7092BAF6D8C"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:fishing_rod"
+			}
+			id: "24529603A87FD12E"
+			rewards: [
+				{
+					id: "57733C3DC840EFE0"
+					item: {
+						count: 1
+						id: "minecraft:fishing_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "6AA9A7F0B4863FB4"
+					item: {
+						components: {
+							"relics:data": {
+								abilities: {
+									abilities: {
+										catch: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												chance: {
+													initialValue: 0.10486d
+												}
+											}
+										}
+									}
+								}
+								leveling: {
+									experience: 0
+									level: 0
+									luck: 0
+									points: 0
+								}
+							}
+						}
+						count: 1
+						id: "artifacts:anglers_hat"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "69930D267460F3E4"
+				type: "checkmark"
+			}]
+			x: 0.625d
+			y: -3.125d
+		}
+		{
+			dependencies: [
+				"6A4DD38D3B3FB92F"
+				"4713C4C9DE88A091"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:fishing_rod"
+			}
+			id: "7827E3F5DB53FDF7"
+			rewards: [{
+				id: "7E9D533A63B68CC1"
+				item: {
+					count: 1
+					id: "minecraft:fishing_rod"
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "3FC15ADEC03459B4"
+				type: "checkmark"
+			}]
+			x: -0.625d
+			y: -3.125d
+		}
+		{
+			dependencies: ["29D1EFBBCC23C7B1"]
+			id: "02F68B21145F144B"
+			rewards: [{
+				id: "0A4078C9C5CC4581"
+				type: "xp"
+				xp: 160
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:fishing_rod"
+				}
+				id: "499B2DCAAFED22B9"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 256
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["02F68B21145F144B"]
+			id: "1A727D5BE542BCA2"
+			rewards: [{
+				id: "35EC90FEC1575696"
+				type: "xp"
+				xp: 170
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:fishing_rod"
+				}
+				id: "77CD40AE19B38D01"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 512
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1A727D5BE542BCA2"]
+			id: "774CFC831D5A839F"
+			rewards: [
+				{
+					id: "1158B84CE4777FD8"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "370E1E20D13BB6B0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:fishing_rod"
+				}
+				id: "2955696B5CB570E9"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 1024
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["774CFC831D5A839F"]
+			id: "26DA4BA7E4564F72"
+			rewards: [
+				{
+					id: "205924141B5A8180"
+					type: "xp"
+					xp: 140
+				}
+				{
+					id: "608707619FB57704"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3E4D98D4AF78CD65"
+					item: {
+						count: 1
+						id: "plushies:pufferfish_plushie"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7160E566EDF8307D"
+					item: {
+						count: 1
+						id: "minecraft:sponge"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:fishing_rod"
+				}
+				id: "12729D3BC16A786D"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 2048
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+	]
+}

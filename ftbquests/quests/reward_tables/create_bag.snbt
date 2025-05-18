@@ -1,0 +1,31 @@
+{
+	id: "5F773425F0C1635B"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			count: 2
+			id: "4D7C349DC75C45EA"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+		}
+		{
+			count: 2
+			id: "42B5ABACF9029081"
+			item: {
+				count: 1
+				id: "create:zinc_ingot"
+			}
+		}
+		{
+			count: 2
+			id: "77A1285BC61EB8A8"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+		}
+	]
+}

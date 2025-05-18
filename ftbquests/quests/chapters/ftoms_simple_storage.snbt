@@ -1,0 +1,34 @@
+{
+	autofocus_id: "74D3F94AF49EECCF"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "ftoms_simple_storage"
+	group: "7DE0C6EA36844BEB"
+	id: "3CE895D7A6DD3E58"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "74D3F94AF49EECCF"
+			optional: true
+			size: 1.5d
+			tasks: [{
+				id: "7F46B2793A157491"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "08D2F89323988D17"
+			optional: true
+			tasks: [{
+				id: "79F72FD39D114C20"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+}

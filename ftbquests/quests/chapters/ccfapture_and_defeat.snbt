@@ -1,0 +1,849 @@
+{
+	autofocus_id: "03B310C267801FE4"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ccfapture_and_defeat"
+	group: "09E01112F0299463"
+	id: "5A86D2ECBE2F1342"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "03B310C267801FE4"
+			rewards: [
+				{
+					id: "24967FC395E0D29A"
+					item: {
+						count: 1
+						id: "minecraft:lime_concrete_powder"
+					}
+					type: "item"
+				}
+				{
+					id: "0ABE23C34CC02AEB"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2F6D21961A655AAA"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03B310C267801FE4"]
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "1563F76BBC74AEF8"
+			rewards: [{
+				command: "/cobbledollars give @s 5000"
+				icon: {
+					id: "minecraft:emerald"
+				}
+				id: "5A64AB37FBE91BCA"
+				permission_level: 4
+				type: "command"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "1C5D2E16BE049467"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1563F76BBC74AEF8"]
+			id: "1FC67157576F158E"
+			rewards: [
+				{
+					id: "4878C073BAF63059"
+					item: {
+						count: 1
+						id: "cobbledollars:cobble_merchant_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/cobbledollars remove @s 10000"
+					icon: {
+						id: "minecraft:emerald"
+					}
+					id: "7717928C94CE408F"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "6D7F0CF1DABD9C6E"
+					item: {
+						count: 1
+						id: "minecraft:name_tag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32C62C3CCC88A848"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "3FEA6B059FB6779C"
+			rewards: [{
+				id: "7BD726F72932D6DC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "474A7D2B36D0904E"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			icon: {
+				id: "create:brass_ingot"
+			}
+			id: "1E78AF6C0F6F9999"
+			rewards: [{
+				id: "320862DA3CE931D4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "75C9905F542BCD0A"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			icon: {
+				id: "create:large_water_wheel"
+			}
+			id: "585E7B91671E7179"
+			rewards: [{
+				id: "76E253DC21289DCD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "638B5E40B50A434F"
+				item: { count: 1, id: "create:large_water_wheel" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "6084BA5722BF4048"
+			rewards: [{
+				id: "2E262695CC8AE6F8"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "104C36DB17301651"
+				item: { count: 1, id: "create:potato_cannon" }
+				type: "item"
+			}]
+			x: -1.3d
+			y: -3.9000000000000004d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			icon: {
+				id: "create:crushing_wheel"
+			}
+			id: "7DB490563AD3571D"
+			rewards: [{
+				id: "0C3C690A969DC9A3"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "5893682A59DD9F3A"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.9000000000000004d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			icon: {
+				id: "create:flywheel"
+			}
+			id: "08D654AC9F99A91E"
+			rewards: [{
+				id: "1C806CC251995E86"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "7441C0AEF7D537A9"
+				item: { count: 1, id: "create:flywheel" }
+				type: "item"
+			}]
+			x: 1.3d
+			y: -3.9000000000000004d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			icon: {
+				id: "createaddition:electric_motor"
+			}
+			id: "5CE7728048DBDF1D"
+			rewards: [{
+				id: "6A0ACE0F2D0661A4"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "1CA92454D80EEE67"
+				item: { count: 1, id: "createaddition:electric_motor" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			icon: {
+				id: "createaddition:alternator"
+			}
+			id: "05D4D078C121C419"
+			rewards: [{
+				id: "2029FD61B25F50E6"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "32CD5EDEE0946396"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			icon: {
+				id: "create_sa:brass_exoskeleton_chestplate"
+			}
+			id: "3D871BF9B4547334"
+			rewards: [{
+				id: "79A92976FA5FA55D"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "6D2E6D3907F0A017"
+				item: { count: 1, id: "create_sa:brass_exoskeleton_chestplate" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			icon: {
+				id: "createoreexcavation:drilling_machine"
+			}
+			id: "03DDB39DD529B095"
+			rewards: [{
+				id: "45B869FB0EA52E97"
+				type: "xp"
+				xp: 100
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "2703E45599B92F68"
+				item: { count: 1, id: "createoreexcavation:drilling_machine" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "56A2E83632D6CF06"
+			rewards: [{
+				id: "30B3C2BBFF8D32B9"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "3A65143E2D42294C"
+				item: { count: 1, id: "create_confectionery:full_black_chocolate_bar" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "4C1BB17C376625A7"
+			size: 3.0d
+			tasks: [{
+				id: "4DB8FAD3DFF56E7A"
+				item: { count: 1, id: "create_confectionery:full_ruby_chocolate_bar" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "15BD32A39BB4157E"
+			rewards: [{
+				id: "4704CA230B0DEB61"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "40CB17CD340042F5"
+				item: { count: 1, id: "create_confectionery:full_white_chocolate_bar" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "646D60311F1AA448"
+			rewards: [{
+				id: "061E09F34EE9E918"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "109E89CA428EFD53"
+				item: { count: 1, id: "create_confectionery:full_chocolate_bar" }
+				type: "item"
+			}]
+			x: 6.0714285714285765d
+			y: -4.017857142857146d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "66FCFF82A6BB94D9"
+			rewards: [{
+				id: "396A10911E240A57"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "5257F5996A74634C"
+				item: { count: 1, id: "create_confectionery:chocolate_candy" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "61FA78ADC0A784A1"
+			rewards: [{
+				id: "015D165BAE637191"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "341ADACEFF513CFC"
+				item: { count: 1, id: "create_confectionery:black_chocolate_candy_2" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "69FDC7DA68AB0FE1"
+			rewards: [{
+				id: "49B5C0339DFA1825"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "65DF64E65AD54ACE"
+				item: { count: 1, id: "create_cheese:camembert" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "51B2C532534CB0DA"
+			rewards: [{
+				id: "276205862B92B545"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "6C732FA8D46A1DCA"
+				item: { count: 1, id: "create_cheese:roquefort" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "447CE84FE717337E"
+			rewards: [{
+				id: "609BFB77D725CBBE"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "7E559648C3386B35"
+				item: { count: 1, id: "create_cheese:reblochon" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "1D3E328D866EC6BA"
+			rewards: [{
+				id: "24EF591527F5F0D9"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "289AD04792D6B908"
+				item: { count: 1, id: "create_cheese:cheddar" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "62AA9EF13D44361F"
+			rewards: [{
+				id: "2054E5E189207F37"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "3C3750211BC7B595"
+				item: { count: 1, id: "create_cheese:swiss" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "102C86D69320A4D8"
+			rewards: [{
+				id: "180EA28EE5FBFA02"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "00FB6CF051690482"
+				item: { count: 1, id: "create_cheese:crottin_de_chavignol" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "0E0057B8DE9428B5"
+			rewards: [{
+				id: "075887835E10371F"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "7B10A17540BC3F49"
+				item: { count: 1, id: "create_cheese:fromage_frais" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "4414693B876BE2C2"
+			rewards: [{
+				id: "3DEFDB7BDA66A0AD"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "31CA7292BE8050B6"
+				item: { count: 1, id: "create_cheese:mozzarella" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "0F0DB514B225BC16"
+			rewards: [{
+				id: "79D328D7B0C8C1D9"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "1E392C31AC3BBB34"
+				item: { count: 1, id: "create_cheese:tomme_de_savoie" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "69C2B1085AA2FB90"
+			rewards: [{
+				id: "74E3613A5C577235"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "heart"
+			size: 4.0d
+			tasks: [{
+				id: "59E452E8CC5DC542"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "45D0D538F421D8D3"
+			rewards: [{
+				id: "743E9C1E93FEEE63"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "177B900B423ADF62"
+				item: { count: 1, id: "create_cheese:ricotta" }
+				type: "item"
+			}]
+			x: -14.500000000000002d
+			y: -5.7d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "5CCF5937350A6DB7"
+			rewards: [{
+				id: "0626841D823B146F"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "67941E2D6A76F046"
+				item: { count: 1, id: "create_cheese:colby_jack" }
+				type: "item"
+			}]
+			x: -12.55d
+			y: -4.4d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "3170588E58F5ABD7"
+			rewards: [{
+				id: "32A63BFD19035038"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "660CB57F6376B5AB"
+				item: { count: 1, id: "create_cheese:feta" }
+				type: "item"
+			}]
+			x: -10.600000000000001d
+			y: -5.7d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "7D6D4ECD23BC6BFC"
+			rewards: [{
+				id: "44D7DA09273F6B38"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "2193C304DA41CD14"
+				item: { count: 1, id: "create_cheese:manchego" }
+				type: "item"
+			}]
+			x: -10.600000000000001d
+			y: -4.4d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "5CC440186FCE7F42"
+			rewards: [{
+				id: "12717C9CBFD9227B"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "1A91AC9DE93C1872"
+				item: { count: 1, id: "create_cheese:gouda" }
+				type: "item"
+			}]
+			x: -8.650000000000002d
+			y: -4.4d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "6DB5DF74BD4C57F2"
+			rewards: [{
+				id: "58155DDCFA75B763"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "37D4F832D52BD040"
+				item: { count: 1, id: "create_cheese:brie" }
+				type: "item"
+			}]
+			x: -6.700000000000001d
+			y: -5.7d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "6DAAAF934956F0AA"
+			rewards: [{
+				id: "6026B17A3E9212F1"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "49369069DAE7D875"
+				item: { count: 1, id: "create_cheese:gorgonzola" }
+				type: "item"
+			}]
+			x: -6.700000000000001d
+			y: -4.4d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "55F13D8A4F0EC3BC"
+			rewards: [{
+				id: "5EE27A194AA15036"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "22D86B6914231A03"
+				item: { count: 1, id: "create_cheese:emmentaler" }
+				type: "item"
+			}]
+			x: -12.55d
+			y: -5.7d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "446865F3DF785580"
+			rewards: [{
+				id: "1A8D48EE4F16CEC2"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "7B1B29170FCE60E0"
+				item: { count: 1, id: "create_cheese:cabrales" }
+				type: "item"
+			}]
+			x: -8.650000000000002d
+			y: -5.7d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "39A4912338EB12BC"
+			rewards: [{
+				id: "2F6CE8B6CCC76CAE"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "0978C5795840FB29"
+				item: { count: 1, id: "create_cheese:cheshire" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "68D5E0128885DB8B"
+			rewards: [{
+				id: "5F2167F8AF0B4ECC"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "21E2E7F719A667EA"
+				item: { count: 1, id: "create_cheese:gruyere" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "069287B0019B46A0"
+			rewards: [{
+				id: "07506A9CB0F9D1B7"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "21C672021561864B"
+				item: { count: 1, id: "create_cheese:mimolette" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "275BA23C0CA03673"
+			rewards: [{
+				id: "180BBAA0336EA0EB"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "5F2FF18B80CD243C"
+				item: { count: 1, id: "create_cheese:parmigiano_reggiano" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "34317A07629F33A1"
+			rewards: [{
+				id: "3BBCC0384BDFED85"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "66EB6C58C5D557C6"
+				item: { count: 1, id: "create_cheese:pecorino_romano" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "0AD705688DB050A0"
+			rewards: [{
+				id: "60E4CE250F78E568"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "5E3EDCAB36A91B0B"
+				item: { count: 1, id: "create_cheese:provolone" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "1EC1730517743D9F"
+			rewards: [{
+				id: "6F282D96D7A0AF5D"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "387A2503369926CE"
+				item: { count: 1, id: "create_cheese:comte" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["69C2B1085AA2FB90"]
+			id: "30FC88BADC839E2E"
+			rewards: [{
+				id: "3B93EA2629517C91"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "0CC1EDD282B5F9DC"
+				item: { count: 1, id: "create_cheese:grana_panado" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+	]
+}
